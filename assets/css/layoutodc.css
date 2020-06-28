@@ -1,0 +1,134 @@
+.layout-odc
+{
+	width: 100%;
+}
+
+.box-panel-up-odc
+{
+	border-top:4px solid #00fa9a;
+	border-left:4px solid #00fa9a;
+	border-right:4px solid #00fa9a;
+}
+
+.box-panel-middle-odc
+{
+	border-left:4px solid #00fa9a;
+	border-right:4px solid #00fa9a;
+}
+
+.box-panel-bottom-odc
+{
+	border-left:4px solid #00fa9a;
+	border-right:4px solid #00fa9a;
+	border-bottom:4px solid #00fa9a;
+}
+
+.panel-row
+{
+	margin: 4px 4px 4px 4px;
+	border:2px solid #00fa9a;
+}
+
+.table-port-odc
+{
+	margin: 2px 2px 2px 2px;
+	width: 100%;
+}
+
+.table-port-odc td
+{
+	text-align: center;
+}
+
+.table-port-odc a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.port-box-odc
+{
+	margin: 5px 0px 2px 0px;
+	height: 8%;
+	width: 8%;
+	/*border:2px solid #1c86ee;
+	background-color:#1c86ee;*/
+}
+
+/* bulatan port */
+/* inlet */
+.port-odc-online1 
+{
+	margin: 3px 2px 0px 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #ffff00;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/* outlet */
+.port-odc-online2 
+{
+	margin: 3px 2px 0px 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #66cd00;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/* broken */
+.port-odc-broken 
+{
+	margin: 3px 2px 0px 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #ee5c42;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/* idle */
+.port-odc-offline
+{
+	margin: 3px 2px 0px 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/*
+.box-odc
+{
+	border:2px solid #1c86ee;
+}
+
+.box-odc td
+{
+	text-align: center;
+}
+*/
+
+.port-box-odc-info
+{
+	border:2px solid #1c86ee;
+}
+
+.port-info
+{
+	font-size: 7pt;
+	color: #fff;
+	/*margin-top: 25px;*/
+	text-align: center;
+	/*transform: rotate(-60deg);*/
+}
+
+.port-info-broken
+{
+	font-size: 9pt;
+	color: #ee5c42;
+	text-align: center;
+}
